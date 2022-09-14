@@ -3,7 +3,7 @@
 void yo::Chunk::push_back(uint8_t opcode, int lineNumber)
 {
 	data.push_back(opcode);
-	lines.push_back(lineNumber);
+	lines.push_back(opcode);
 }
 
 void yo::Chunk::push_constant(Value value, int lineNumber)
